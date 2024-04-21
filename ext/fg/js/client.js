@@ -431,7 +431,7 @@ class Client {
 
     setUpClipboardObserver() {
         setInterval(() => {
-            if(this.options.observeClipboard) {
+            if(this.enabled && this.options.observeClipboard) {
                 if(this.clipboardObserver !== null) return
                 this.clipboardObserver = new ClipboardObserver();
                 this.clipboardContainer = new ClipboardContainer()

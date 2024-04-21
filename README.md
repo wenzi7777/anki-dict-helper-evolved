@@ -6,7 +6,7 @@
 
 - [安装](#安装)
 - [改进自anki-dict-helper](https://github.com/ninja33/anki-dict-helper)
-- [LICENSE](LICENSE.md)
+- [LICENSE](LICENSE)
 
 # 安装
 
