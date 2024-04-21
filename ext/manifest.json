@@ -1,13 +1,13 @@
 ﻿{
     "manifest_version": 2,
-    "name": "Anki 划词制卡助手",
-    "version": "1.0",
+    "name": "Anki 划词制卡助手Evolved",
+    "version": "0.0.1",
 
-    "description": "划词翻译，一键制卡",
+    "description": "划词翻译，一键制卡，剪切板快速划词。",
     "icons": {"16": "img/icon16.png", "48": "img/icon48.png", "128": "img/icon128.png"},
     "browser_action": {"default_icon": {"19": "img/icon19.png", "38": "img/icon38.png"}},
 
-    "author": "Zhenyu Huang",
+    "author": "Zhenyu Huang, Nick Hsu",
     "background": {"page": "bg/background.html"},
     "content_scripts": [{
         "matches": ["*://*/*", "file://*/*"],

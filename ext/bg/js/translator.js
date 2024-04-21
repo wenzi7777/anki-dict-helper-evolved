@@ -74,7 +74,7 @@ class Translator {
 
     findTerm(text) {
         const groups = {};
-        
+
         const segments = text.replace(/[^\u0030-\u024F]/g,' ').trim().split(' ')
 
         function isEmptyObject(obj) {
@@ -89,7 +89,7 @@ class Translator {
             }
             this.processTerm(groups, term, tags, [], term);
         }
-        
+
         let definitions = [];
         for (let key in groups) {
             definitions.push(groups[key]);
@@ -114,7 +114,7 @@ class Translator {
 
             return v2.expression.localeCompare(v1.expression);
         });
-        
+
         let length = 0;
         for (let result of definitions) {
             length = Math.max(length, result.source.length);

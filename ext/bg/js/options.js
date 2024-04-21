@@ -25,6 +25,7 @@ function sanitizeOptions(options) {
         enableOnlineDict:    false,
         disableAnkiOption:   true,
         enableAnkiConnect:   false,
+        observeClipboard:    false,
         ankiCardTags:        ['dict-helper'],
         sentenceExtent:      200,
         ankiVocabDeck:       '',

@@ -63,6 +63,7 @@ function formToOptions(section, callback) {
                 optsNew.enableOnlineDict    = $('#enable-online-dictionary').prop('checked');
                 optsNew.disableAnkiOption   = $('#disable-anki-option').prop('checked');
                 optsNew.enableAnkiConnect   = $('#enable-ankiconnect').prop('checked');
+                optsNew.observeClipboard   = $('#observe-clipboard').prop('checked');
                 break;
             case 'anki':
                 optsNew.ankiCardTags    = $('#anki-card-tags').val().split(/[,; ]+/);
@@ -216,6 +217,7 @@ $(document).ready(() => {
         $('#disable-anki-option').prop('checked', opts.disableAnkiOption);
         $('#enable-ankiconnect').prop('checked', opts.enableAnkiConnect);
         $('#enable-ankiweb').prop('checked', opts.enableAnkiWeb);
+        $('#observe-clipboard').prop('checked', opts.observeClipboard);
 
         $('#ankiweb-username').val(opts.ankiwebUsername);
         $('#ankiweb-password').val(opts.ankiwebPassword);

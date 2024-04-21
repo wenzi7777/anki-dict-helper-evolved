@@ -43,7 +43,7 @@ class Yomichan {
 
         this.translator = new Translator();
         this.onlinedict = new Onlinedict();
-        
+
         this.asyncPools = {};
         this.setState('disabled');
         this.ankiConnectVer = 5;
@@ -109,7 +109,7 @@ class Yomichan {
                 chrome.browserAction.setBadgeText({text: 'off'});
                 break;
             case 'enabled':
-                chrome.browserAction.setBadgeText({text: ''});
+                chrome.browserAction.setBadgeText({text: 'on'});
                 break;
             case 'loading':
                 chrome.browserAction.setBadgeText({text: '...'});
@@ -339,7 +339,7 @@ class Yomichan {
     api_renderText({template, data, callback}) {
         callback(Handlebars.templates[template](data));
     }
-    
+
 }
 
 window.yomichan = new Yomichan();
