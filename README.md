@@ -11,7 +11,11 @@
 - [LICENSE](LICENSE)
 
 # 安装
-在[Releases](https://github.com/wenzi7777/anki-dict-helper-evolved/releases/)中下载最新的版本，随后在Chrome中安装。
+1. 在[Releases](https://github.com/wenzi7777/anki-dict-helper-evolved/releases/)中下载最新的版本的插件压缩包。
+
+2. 随后解压得到插件文件夹，将Chrome的开发者模式打开，拖入插件文件夹完成安装。
+![安装教程](/imgs/installation.png)
+**安装教程**
 
 # 特点功能
 ![剪切板单词侦测](/imgs/clipboard_word_detect.png)
