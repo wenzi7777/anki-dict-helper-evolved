@@ -10,11 +10,7 @@
 
 # 安装
 
-点击任意一个源的连接即可安装。
-最简单的安装方法是通过Chrome应用商店安装插件
-
-1. 下载地址: [Anki划词制卡助手](https://chrome.google.com/webstore/detail/anki%E5%88%92%E8%AF%8D%E5%88%B6%E5%8D%A1%E5%8A%A9%E6%89%8B/ajencmdaamfnkgilhpgkepfhfgjfplnn)
-2. 按Chrome浏览器提示安装。
+在[Releases](https://github.com/wenzi7777/anki-dict-helper-evolved/releases/)中下载最新的版本，随后在Chrome中安装。
 
 # 贡献者
 <a href="https://github.com/wenzi7777/anki-dict-helper-evolved/graphs/contributors">
